@@ -1,0 +1,22 @@
+Version control systems are essential tools for managing changes to code and files in software development. They can be categorized into two main types: Centralized Version Control Systems (CVCS) and Distributed Version Control Systems (DVCS).
+
+Centralized Version Control Systems (CVCS):
+
+In a CVCS, there is a single central repository that contains all the versioned files. All users must interact with this central system for their changes.
+its required internet and we dont have any copy 
+we cant see all the commits
+
+Advantages:
+Easy to manage for small teams, as everyone can see what others are working on real-time.
+Disadvantages:
+If the central server goes down, all data may be lost, and users cannot work offline.
+Distributed Version Control Systems (DVCS):
+
+In contrast, DVCS allows each user to have a complete local copy of the repository, including the entire history of changes. Popular examples include Git.
+for pushing the commits we need internet even though without net we can work on the project and we have a copy in our local system and remote repo 
+we can see all the commits 
+
+Advantages:
+Users can work offline and have access to the full history of changes. Collaboration is easier since changes can be made independently and combined later.
+Disadvantages:
+Slightly more complex to understand and manage, especially for new users.

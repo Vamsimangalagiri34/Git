@@ -1,0 +1,11 @@
+git --version to check version
+
+we should have our own identity so we should have our own name and email
+
+to see global 
+git config --global --list 
+
+to set name and email 
+git config --global user.name "vamsi"
+git config --global user.email "email"
+

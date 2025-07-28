@@ -1,0 +1,48 @@
+git init is used to initilize the directory we we use this cmd git will creates a .git folder inthe folder .
+
+By default it may works on master branch but if we can to work on main branch we can use this cmd
+git init -b main
+
+git log it will show all the commits
+
+HEAD is nothing but a pointer
+
+the place where we are working is called working area
+
+staging area is present in local rep (.git)
+staging is a area where the files we add it will goes to there 
+after commit it will goes to local commit
+
+we can skip staging area By
+git commit -a -m "msg"
+
+we can come back to working area By
+git rm --cached file_name
+
+git diff command:
+
+we change the code or file it get modified to check the previous and modified code we use cmd ( git diff ) it shows the what we changes done.
+after that we if we want to send the code into staging area then we use --(git add filename )--
+
+in working area if we want check diff  use git diff file_name.name 
+
+
+if the code or file in staging area we can also check the diff by using cmd ---( git diff --staged)---
+the file in staged area so we use --(git diff --staged)--
+Hello World: The original content in the last commit.
+
++This is a new line: The new content staged for the next commit.
+This command helps you verify what changes are staged before committing them.
+ 
+git diff --staged it is used ot know the change what are done in stageing area 
+git diff is used to know the what are are changes made in after the commit.
+
+
+
+removing file from staging area:
+
+if we want to remove a file then we initily we have to remove from staging area then after we have to remove from working directory
+if we not follos this in console it show like discard changes in working area
+removing a file from staging area by using cmd ---( git rm --cached filename.exet )
+after the file is become untracked and present in working directory then now we can delete the file
+
