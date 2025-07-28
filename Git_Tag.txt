@@ -1,0 +1,60 @@
+
+to delete :
+git tag --delete version 
+
+to remove remote repository
+git push origin -d v1.0 or we can use (delete)
+
+
+git tag:
+it used for like version number 
+set a version using cmd: ---( git tag -a version_name -m "msg " )
+or git tag tag_name
+for see the tag : ----( git show )--- 
+----( git show tag_name )---- it gives the info of the tagger and also about the file related data and commits also
+
+we have to push the tag into the remote Repository by using cmd  : ------( git push origin tagname )-----------
+
+
+
+git tags:
+
+Create a Lightweight Tag:
+git tag v1.0
+
+Create an Annotated Tag: 
+git tag -a v1.0 -m "First release version"
+
+to see the msg
+git show v1.0
+
+List Tags:(display all the tags)
+git tag
+
+
+Push Tags to Remote Repository: Tags are not automatically pushed to a remote repository with git push. You need to explicitly push tags:
+
+git push origin <tag-name>
+
+to push all tags:
+
+git push --tags
+
+
+branches are used for ongoing development and changes, while tags are used to mark specific points in a project's history that are noteworthy, such as releases or significant milestones
+
+Example in an Application:
+Release Version:
+
+When developers build an application, they often reach certain important points, like when a feature is finished or a new version of the app is ready for users.
+They can tag that point as a specific version, like "v1.0" or "v2.0", so that everyone knows exactly which version of the app they are working with or using.
+When You Use git checkout <tag-name>:
+
+Let’s say you want to look at the app as it was when version "v1.0" was released. By using git checkout v1.0, you can see the app exactly as it was at that time.
+Developers use this to test old versions of the app, fix bugs in old versions, or just look at how the app worked at that time.
+
+if you change from one tag to another 
+If you checkout a tag (e.g., v1.1) and make changes, those changes will be in a detached HEAD state. To save them, you need to commit the changes and optionally create a new tag (e.g., v1.1.1). The changes won't be part of the original v1.1 tag.
+
+git tag -l "v1.1" it will display all the tags starting with this "v1.1"
+
