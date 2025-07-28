@@ -26,16 +26,20 @@ after that we if we want to send the code into staging area then we use --(git a
 
 in working area if we want check diff  use git diff file_name.name 
 
-
+we weedit the file than it will get modified there we need to check what we modified actually 
+after add to staging area use --staged to check diff
+for working area check git diff
 if the code or file in staging area we can also check the diff by using cmd ---( git diff --staged)---
 the file in staged area so we use --(git diff --staged)--
 Hello World: The original content in the last commit.
 
 +This is a new line: The new content staged for the next commit.
 This command helps you verify what changes are staged before committing them.
- 
+
 git diff --staged it is used ot know the change what are done in stageing area 
 git diff is used to know the what are are changes made in after the commit.
+
+
 
 
 
