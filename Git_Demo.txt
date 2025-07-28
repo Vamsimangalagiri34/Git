@@ -16,7 +16,9 @@ In contrast, DVCS allows each user to have a complete local copy of the reposito
 for pushing the commits we need internet even though without net we can work on the project and we have a copy in our local system and remote repo 
 we can see all the commits 
 
-Advantages:
+Advantages:-
 Users can work offline and have access to the full history of changes. Collaboration is easier since changes can be made independently and combined later.
 Disadvantages:
 Slightly more complex to understand and manage, especially for new users.
+
+--------
